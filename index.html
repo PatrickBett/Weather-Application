@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Weather App</title>
+    <style>
+        .weather-container{
+    display: none;
+}
+    </style>
+</head>
+<body>
+
+    
+
+        <div class="app-title">
+            <h1>WEATHER APP</h1>
+        </div>
+<!--        <button id="theme">
+            <span class="material-symbols-outlined">
+                light_mode
+            </span>
+        </button>-->
+
+
+        <!--Search-->
+        
+            <div id="search-box">
+                <input type="text" id="input-city-name" placeholder="Enter City Name" spellcheck="false"/>
+                <button id="searchBtn">
+                    <span class="material-symbols-outlined">
+                    search
+                    </span>
+            </button>
+            </div>
+        
+
+
+<div class="weather-container">
+    
+    <h2 id="city"></h2>
+
+
+<!--Clouds-->
+<div class="clouds">
+    <h3 id="dtime"> </h3>
+    <h3 id="clouds"> </h3>
+    <img src=""/>
+
+</div>
+
+<!--Sunrise and Sunset-->
+<div class="sun-rise-set">
+    <!--sun rise-->
+    <div id="sun-rise">
+        <h3 id="rise"> </h3>
+        <img src=""/>
+    </div>
+    <!--sun set-->
+    <div id="sun-set">
+        <h3 id="set"> </h3>
+        <img src=""/>
+    </div>
+
+</div>
+
+       <!--Temperature-->
+        <div class="temperature">
+            <span class="material-symbols-outlined">
+                thermometer
+            </span>
+            <div>
+                
+            </div>
+            <div>
+                <h3 id="temp"></h3>
+                <h3 id="temp-max"></h3>
+                <h3 id="temp-min"></h3>
+            </div>
+            
+                      
+
+        </div>
+
+        <!--Wind-->
+        <div class="wind">
+            <div><span class="material-symbols-outlined">
+                air
+            </span></div>
+            <div><h3 id="wind"></h3></div>
+            
+        
+        </div>
+        <!--Humidity-->
+        <div class="humidity">
+            <div><span class="material-symbols-outlined">
+                humidity_mid
+            </span></div>
+            <div><h3 id="humidity"></h3></div>
+            
+        
+        </div>
+        <!--Pressure-->
+        <div class="pressure">
+            <div><span class="material-symbols-outlined">
+                compress
+            </span></div>
+            <div><h4 id="pressure"></h4></div>
+            
+        
+        </div>
+
+        
+
+
+</div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
