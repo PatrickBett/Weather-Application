@@ -117,13 +117,20 @@ function displayData(weatherdata){
 //addEvent Listener on search button
 searchBtn.addEventListener('click',getCityName)
 
-//add event listener on an "ENTER" keydown
 
-
+//Mouse over event(Changes the background of the div)
 const divweatherContainer =document.getElementById('search-box')
 divweatherContainer.addEventListener('mouseover',function(){
     divweatherContainer.style.backgroundColor='red'
 })
+
+//Mouse out event(Changes the background of the div)
+
+divweatherContainer.addEventListener('mouseout',function(){
+    divweatherContainer.style.backgroundColor='blue'
+})
+
+
 
 document.addEventListener('DOMContentLoaded', function() {
         // Get the div element by its ID

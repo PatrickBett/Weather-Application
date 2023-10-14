@@ -28,5 +28,7 @@ DOMContentLoaded: Event listener to toggle the visibility of the weather contain
 
 Mouseover: An event listener is added to the divweatherContainer element, listening for the mouseover event. When the user hovers over the element, the provided function is executed.
 
+Mouseout: An event listener is added to the divweatherContainer element, listening for the mouseout event. When the user moves the mouse away from the element, the provided function is executed
+
 ### Important Note
 Please make sure to replace '4ac86df4f18613e348b72e2f16a8bbaf' with your actual OpenWeatherMap API key in the apiKey variable to make API requests successfully.
