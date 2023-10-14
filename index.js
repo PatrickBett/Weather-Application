@@ -120,7 +120,10 @@ searchBtn.addEventListener('click',getCityName)
 //add event listener on an "ENTER" keydown
 
 
-
+const divweatherContainer =document.getElementById('search-box')
+divweatherContainer.addEventListener('mouseover',function(){
+    divweatherContainer.style.backgroundColor='red'
+})
 
 document.addEventListener('DOMContentLoaded', function() {
         // Get the div element by its ID
